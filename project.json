@@ -1,0 +1,99 @@
+{
+  "name": "RPA_02",
+  "projectId": "ac229452-0395-4bf7-8343-240a1341b3b4",
+  "description": "빈 프로세스",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.23.2-preview]",
+    "UiPath.Mail.Activities": "[1.22.1]",
+    "UiPath.PDF.Activities": "[3.18.0-preview]",
+    "UiPath.System.Activities": "[24.2.0-preview]",
+    "UiPath.Testing.Activities": "[24.2.0-preview]",
+    "UiPath.UIAutomation.Activities": "[24.2.0-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.2.1.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "CSharp",
+  "entryPoints": [
+    {
+      "filePath": "02_01.xaml",
+      "uniqueId": "ab243a4b-51db-4665-8be1-e90697e613a8",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "729ec656-bb41-46a5-8964-48f9da0da3be",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "02_03.xaml",
+      "uniqueId": "e8ed9a23-097b-4ab7-a5b8-3854a22e2ab8",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "02_02.xaml",
+      "uniqueId": "1c74c31f-361e-4961-8e0c-3f0b2aa677d1",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "02_04.xaml",
+      "uniqueId": "38edde88-db21-416a-8c3c-fb6ef7c86b5b",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "02_05.xaml",
+      "uniqueId": "480d94b2-4392-4353-9710-2d91b7a59db8",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "02_06.xaml",
+      "uniqueId": "267179db-7d4a-4522-ba0d-f463419a4d4e",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
